@@ -89,5 +89,7 @@ int main() {
 		thread_arr[i].join();
 	}
 
+
+	int end = 0;
 	cout << "First class - " << First_class.Read1() << endl << "Second class - " << Second_class.Read2() << endl;
 }
